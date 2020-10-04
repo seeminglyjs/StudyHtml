@@ -170,19 +170,19 @@
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
 <!-- 2020 - 10 - 03 -->
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 
 <html>
 	<head>
 		<title>생활코딩  html 정주행</title>
 		<meta charset="UTF-8">
-			<!--form을 공부해 보자  -->	
+			form을 공부해 보자 	
 	</head>			
 	<body>
 		<form action ="http://localhost/login.php">
-		<!--action은 정보를 보낼곳을 지정한다.  -->
+		action은 정보를 보낼곳을 지정한다. 
 			<p>아이디 : <input type="text" name ="id"></p>
-			<!--네임은 보내는 데이터의 이름을 알려줌  -->
+			네임은 보내는 데이터의 이름을 알려줌 
 			<p>비밀번호 : <input type="password" name ="pwd"></p>
 			<p>Address : <input type="text" name = "address"></p>
 			<p><input type="submit"></p>
@@ -192,11 +192,11 @@
 <br>		
 		<form action="">
 			<p>id: <input type="text" name = "id" value ="default value"></p>
-			<!--value 사용자가 입력하는 창에 기본으로 적혀질 내용을 넣어둘 수 있다.  -->
+			value 사용자가 입력하는 창에 기본으로 적혀질 내용을 넣어둘 수 있다. 
 			<p>password: <input type = "password" name = "pwd" value="default value"> </p>
 			<p>textarea:<textarea cols="30" rows="5">
 			default value
-			<!--여러 줄을 입력할 수 있는 칸이 생긴다.  -->
+			여러 줄을 입력할 수 있는 칸이 생긴다. 
 			</textarea> 
 			</p>
 		</form>
@@ -211,20 +211,20 @@
 				<option value ="black">검은색</option>
 				<option value ="blue">파란색</option>
 			</select>
-			<!--드랍다운 리스트를 만드는 방법  -->
-			<!--셀렉안에있  -->
+			드랍다운 리스트를 만드는 방법 
+			셀렉안에있 
 			<input type = "submit">
 <br>			
 			<h1>색상2 다중선택</h1>
 			<select name = "color2" multiple>
-			<!--다중값을 주는 속성값 multiple
-			사용자가 여러개를 선택할 수 있다.  -->
+			다중값을 주는 속성값 multiple
+			사용자가 여러개를 선택할 수 있다. 
 				<option value ="red">붉은색</option>
 				<option value ="black">검은색</option>
 				<option value ="blue">파란색</option>
 			</select>
-			<!--드랍다운 리스트를 만드는 방법  -->
-			<!--셀렉안에있  -->
+			드랍다운 리스트를 만드는 방법 
+			셀렉안에있 
 			<input type = "submit">
 			
 		</form>
@@ -232,16 +232,16 @@
 <br>	
 <br>	
 
-		<!--라디오 와 체크박스 구현해보기  -->
+		라디오 와 체크박스 구현해보기 
 		<form action="http://localhost/login.php">
 			<h1>색상(단일선택)</h1>
 			<p>붉은색 :<input type ="radio" name ="color" value ="red">		
 			검은색:<input type ="radio" name ="color" value ="black" checked>
-			<!--초기 선택을 설정하는 속성 checked  -->
+			초기 선택을 설정하는 속성 checked 
 			파란색: <input type ="radio" name ="color" value ="blue">
 			</p>
-			<!--동그란 버튼이 생긴다  -->		
-			<!--같은 name끼리 그룹핑 → 하나만 누를 수 있다.  -->
+			동그란 버튼이 생긴다 		
+			같은 name끼리 그룹핑 → 하나만 누를 수 있다. 
 			
 			<h1>사이즈(다중선택)</h1>
 			<p>95: <input type ="checkbox" name ="color2" name = "size" value="95">		
@@ -253,23 +253,23 @@
 <br>	
 <br>	
 <br>			
-		<!--버튼을 구현하는 방법  -->
+		버튼을 구현하는 방법 
 		<form action ="http://localhost/login.php">
 			<input type= "text">
 			<input type ="submit" value="전송">
 			<input type ="button" value="버튼" onclick ="alert('hello world')">
-			<!--자바스크립트 사용시 사용  -->
+			자바스크립트 사용시 사용 
 			<input type ="reset">
 		</form>
 <br>	
 <br>	
 <br>			
 		
-		<!--전송시 보이지 않게 하는 히든기능을 구현하기  -->
+		전송시 보이지 않게 하는 히든기능을 구현하기 
 		<form action="http://localhost/login.php">
 			<input type ="text" name = "id">
 			<input type = "hidden" name="hide" value="7777">
-			<!--ul가 없지만 서버에 전송하고 싶을때 사용한다.  -->
+			ul가 없지만 서버에 전송하고 싶을때 사용한다. 
 			<input type ="submit">
 			
 		</form>	
@@ -277,6 +277,91 @@
 		
 	</body>
 
+</html> -->
+
+
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
+<!-- 2020 - 10 - 04 -->
+<!DOCTYPE html>
+
+ <!-- <html>
+	<head>
+		<title>생활코딩  html 정주행</title>
+		<meta charset="UTF-8">
+				
+	</head>			
+	<body>
+		<form action="">
+			<p>레이블 알아보기 
+				<label for="id_txt">id :</label> 
+				무언가의 이름표이다. 
+				<input id ="id_txt" type="text" name = "id" value ="default value"></p>
+				value 사용자가 입력하는 창에 기본으로 적혀질 내용을 넣어둘 수 있다. 
+			<p>
+				<label for ="pwd_txt">password :</label> 
+				<input id = "pwd_txt" type = "password" name = "pwd" value="default value"> </p>
+			<p>
+				<label>textarea
+					<textarea cols="30" rows="5">
+					default value
+					여러 줄을 입력할 수 있는 칸이 생긴다. 
+					</textarea> 
+				</label>
+			</p>
+			<p>
+				<label>
+					<input type ="checkbox" name ="color" value="red">붉은색	
+				</label>
+				
+				<label for = "check">
+					<input  id = "check" type ="checkbox" name ="color" value="red">붉은색	
+				</label>
+			</p>
+		</form>
+
+	</body>
+
+</html> -->
+
+<br>
+<br>
+<br>
+
+<!-- <html>
+	<head>
+		<title>생활코딩  html 정주행</title>
+		<meta charset="UTF-8">
+				
+	</head>			
+	<body>
+		<p>
+			<form action ="http://localhost/method.php " method="post" >
+			get으로 하면 url 내용이 표시된 post로 바꾸면 나타나지 않음 
+				<input type ="text" name ="id">
+				<input type ="password" name ="pwd">
+				<input type = "submit">
+			</form>
+		</p>
+
+	</body>
+
+</html> -->
+
+<br>
+<br>
+<br>
+ <html>
+	<head>
+		<title>생활코딩  html 정주행</title>
+		<meta charset="UTF-8">
+				
+	</head>			
+	<!--서버에 파일을 보내는 방법 -->
+	<body>
+		<form action="http://localhost/upload.php" method = "post" enctype="mutipart/form-data">
+			<input type="file" name = "">
+			<input type ="submit">
+		</form>
+	</body>
+
 </html>
-
-
