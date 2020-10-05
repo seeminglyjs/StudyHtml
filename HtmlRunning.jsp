@@ -284,7 +284,7 @@
 
 <!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
 <!-- 2020 - 10 - 04 -->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 
  <!-- <html>
 	<head>
@@ -349,7 +349,7 @@
 
 </html> -->
 
-<br>
+<!-- <br>
 <br>
 <br>
  <html>
@@ -358,7 +358,7 @@
 		<meta charset="UTF-8">
 				
 	</head>			
-	<!--서버에 파일을 보내는 방법 -->
+	서버에 파일을 보내는 방법
 	<body>
 		<form action="http://localhost/upload.php" method = "post" enctype="mutipart/form-data">
 			<input type="file" name = "">
@@ -366,4 +366,75 @@
 		</form>
 	</body>
 
+</html> -->
+
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
+<!-- 2020 - 10 - 05 -->
+
+<!DOCTYPE html> 
+
+<!-- <html>
+	<head>
+		<title>생활코딩  html 정주행</title>
+		메타태그란 무엇인가? 
+		<meta charset="UTF-8">
+		<meta name ="description" content ="생활코딩의 소개자료">
+		웹페이지에 대한 요약자료로 사용될 수 있다. 
+		<meta name ="keywords" content ="코딩,coding,html,css,javascript">
+		웹피이지를 설명하는 키워드 		
+		<meta name ="author" content ="seeminglyjs">
+		<meta http-equiv="refresh" content ="30">
+		웹페이지를 자동은 30초씩 업데이트 되도록 한다. 
+	</head>			
+	<body>
+		font 태그 도퇴된 태그이지만 현재도 사용을 하고 있는 태그중 하나이다. 
+		<font size="1" color = "red">hello</font> world
+		폰트의 크기는 1~7에서의 사이즈를 가지고있다. 	
+		현재는 안쓰고  CSS를 사용하면 된다. 		
+	</body>	
+</html>
+
+
+<html> -->
+
+<br>
+<br>
+<br>
+<!--의미론적 태그들을 조금 살펴보자  (semantic) -->	
+<html>
+	<head>
+	  <title>HTML - 수업소개</title>
+	  <meta charset="utf-8">
+	</head>
+	<body>
+		<header>
+		<h1><a href="index.html">HTML</a></h1>
+		</header>
+		<!--헤더는 아무런 기능이 없다. 다만 가장중요한 부분을 강조할 수 있다.  -->
+		<nav>
+			<!--nav 이부분이 컨텐츠를 탐색할 때사용하는 네비게이션의 부분을 나타낸다.  -->
+			<ol>
+			  <li><a href="1.html">기술소개</a></li>
+			  <li><a href="2.html">기본문법<a/></li>
+			  <li><a href="3.html">하이퍼텍스트와 속성</a></li>
+			  <li><a href="4.html">리스트와 태그의 중첩</a></li>
+			</ol>
+		</nav>
+		
+		<section>
+			<article>
+				본문의 내용을 나타내는 아티클
+			</article>
+			<article>
+				본문의 내용을 나타내는 아티클
+			</article>
+		</section>
+		<!--뭔가 역할이 애매한 부분은 섹션으로 묶어서 사용하면 된다.  -->
+		<footer>
+			<ul>
+				<li><a href ="privacy.html">개인보호 정책</a></li>
+				<li><a href ="about.html">회사소개</a></li>
+			</ul>
+		</footer> 
+	</body>
 </html>
