@@ -441,30 +441,30 @@
 <!-- 2020 - 10 - 06 -->
 
 <!--검색엔진 최적화  -->
- <html>
+ <!-- <html>
 	<head>
 		<title>생활코딩  html 정주행</title>
 		<meta charset="UTF-8">
-		<!--html을 의미론적으로 잘 작성하여야 한다.  -->
-		<!--meta tag를 활용하여 페이지 정보를 제대로 나타내야 한다.  -->
-		<!--url의 주소는 좀 더 알아보기 좋은 형태롤 만드는 것이 좋다.  
-			크롤링 하기에도 수월하다.-->
-		<!--url 에 불필요한 매개변수와 세션 id가 있는 긴 url 사용은 피해야 한다  -->
-		<!--중첩된 디렉토리 (dir)을 사용하지 않는 것이 좋다.  -->
-		<!--rel -"canonical" 링크 속성을 사용하여 디렉터리 중첩을 피할 수 있다.  -->
-		<!--링크를 명확히 확인할 수 있도록 표시를 해주는 것이 좋다.  -->
+		html을 의미론적으로 잘 작성하여야 한다. 
+		meta tag를 활용하여 페이지 정보를 제대로 나타내야 한다. 
+		url의 주소는 좀 더 알아보기 좋은 형태롤 만드는 것이 좋다.  
+			크롤링 하기에도 수월하다.
+		url 에 불필요한 매개변수와 세션 id가 있는 긴 url 사용은 피해야 한다 
+		중첩된 디렉토리 (dir)을 사용하지 않는 것이 좋다. 
+		rel -"canonical" 링크 속성을 사용하여 디렉터리 중첩을 피할 수 있다. 
+		링크를 명확히 확인할 수 있도록 표시를 해주는 것이 좋다. 
 		
 	</head>			
 		
 	<body>
 		<img src = "C:\Users\system888\Desktop\java1\BBS\WebContent\image\WhiteWoman.jpg"  alt = "생활코딩 로고"
 		width="100">
-		<!--이미지는 alt를 사용해서 작성하는 것이 좋다.  -->
-		<!--이미지의 이름도 의미를 부여한 이름을 작성하는 것이 좋다.  -->
-		<!--이미지에도 링크를 걸 수 있다. -->
+		이미지는 alt를 사용해서 작성하는 것이 좋다. 
+		이미지의 이름도 의미를 부여한 이름을 작성하는 것이 좋다. 
+		이미지에도 링크를 걸 수 있다.
 	</body>
-<!--검색엑진 최적화 5 번 까지   -->
-</html>
+검색엑진 최적화 5 번 까지  
+</html> -->
 
 
 
@@ -491,23 +491,104 @@
 
 </html>
  -->
-<br>
+<!-- <br>
 <br>
 <br>
 
 <html>
-<!--개발자도구(chrome)  -->
+개발자도구(chrome) 
 	<head>
 		<title>생활코딩  html 정주행</title>
 		<meta charset="UTF-8">	
-		<!--토글은 웹소스에서 확인할 수 있으며, 
-		다양한 화면크기를 시물레이션할 수 있도록 해준다.  -->
-		<!--테블릿 / 스마트폰 / 데스크탑 등등  -->
-		<!-- Network는 서버간에 상호작용을 체크할 수 있다. -->
+		토글은 웹소스에서 확인할 수 있으며, 
+		다양한 화면크기를 시물레이션할 수 있도록 해준다. 
+		테블릿 / 스마트폰 / 데스크탑 등등 
+		Network는 서버간에 상호작용을 체크할 수 있다.
 		
 	</head>			
 		
 	<body>
+
+	</body>
+
+</html> -->
+
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
+<!-- 2020 - 10 - 08 -->
+
+
+<!-- <html>
+	<head>
+		<title>생활코딩  html 정주행</title>
+		<meta charset="UTF-8">
+		<meta name ="viewprot" content = "width=device-width, initial-scale-1.0">		
+		화면의 폭을 디바이스의 폭만큼으로 설정해라. 화면을 키우고 줄일때 (줌)을 처음으로 1.0으로 설정 
+		기계적으로 해당 코드는 넣는다고 생각하면 된다. 
+	</head>			
+	<body>
+		<h1>모바일 지원 </h1>
+		
+		<ol>
+			<li>1.기술소개</li>
+			<li>2.기본문법</li>
+			<li>3.하이퍼텍스트의 속성</li>
+			<li>4.리스트와태그의중첩</li>
+		</ol>
+		
+		<h2>선행학습</h2>
+		<div>
+			블라블라블바라바라블라블라블바라바라블라블라블바라바라블라블라블바
+			라바라블라블라블바라바라블라블라블바라바라블라블라블바라바라
+			
+		</div>
+
+	</body>
+
+</html> -->
+
+
+<br>
+<br>
+<br>
+
+<!--html5의 다양한 form의 형식들  -->
+<html>
+	<head>
+		<title>생활코딩  html 정주행</title>
+		<meta charset="UTF-8">
+		<meta name = "viewport" content ="width = divice-width, intial-scale = 1.0">
+
+	</head>			
+	<body>
+		<form action="form.php" autocomplete ="on">
+		<!--자동완성 기능을 추가한다.  -->
+			<input type="number" name = "age" min="10" max="15">
+			<!--숫자만 입력가능함  모바일 화면에서는 해당 인풋에 값을 넣을라하면
+			초기 키패드가 숫자로 뜬다.-->
+			<input type ="date" name = "datev">
+			<input type ="month" name ="monthv">
+			<input type = "week" name ="weekv">
+			<input type= "time" name ="timev">
+			<!--편하게 날짜를 입력할 수 잇게 해준다  -->
+			<input type ="email" name = "emailv">
+			<input type ="search" name ="searchv">
+			<!--검색하는 인풋 정보로써의 가치를 가짐  -->
+			<input type ="tel" name ="telv">
+			<!--전화번호를 적는 것  -->
+			<input type="url" name ="urlv">
+			<input type ="range" name ="rangev" min = "0" max="10">
+			<!-- 슬라이더가 생김 -->
+			<input type = "submit">
+			<!--_____________________________________  -->
+			
+			<input type ="text" name ="id" placeholder="id를 입력해주세요" autofocus>
+			<!--사용자의 커서가 자동으로 포커스 되어 id로 이동함  -->
+			<input type = "password" name ="password" autocomplete = "off" placeholder="password를 입력해주세요">
+			<!--비밀번호만 자동완성이 안되게 한다.  -->
+			<!--해당칸에 입력전에 글자를 보여줌  -->
+			<input type = "submit">			
+			
+		</form>
 
 	</body>
 
