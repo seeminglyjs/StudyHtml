@@ -323,10 +323,10 @@
 
 </html> -->
 
+<!-- <br>
 <br>
 <br>
-<br>
-
+ -->
 <!-- <html>
 	<head>
 		<title>생활코딩  html 정주행</title>
@@ -545,11 +545,11 @@
 </html> -->
 
 
-<br>
+<!-- <br>
 <br>
 <br>
 
-<!--html5의 다양한 form의 형식들  -->
+html5의 다양한 form의 형식들 
 <html>
 	<head>
 		<title>생활코딩  html 정주행</title>
@@ -559,35 +559,65 @@
 	</head>			
 	<body>
 		<form action="form.php" autocomplete ="on">
-		<!--자동완성 기능을 추가한다.  -->
+		자동완성 기능을 추가한다. 
 			<input type="number" name = "age" min="10" max="15">
-			<!--숫자만 입력가능함  모바일 화면에서는 해당 인풋에 값을 넣을라하면
-			초기 키패드가 숫자로 뜬다.-->
+			숫자만 입력가능함  모바일 화면에서는 해당 인풋에 값을 넣을라하면
+			초기 키패드가 숫자로 뜬다.
 			<input type ="date" name = "datev">
 			<input type ="month" name ="monthv">
 			<input type = "week" name ="weekv">
 			<input type= "time" name ="timev">
-			<!--편하게 날짜를 입력할 수 잇게 해준다  -->
+			편하게 날짜를 입력할 수 잇게 해준다 
 			<input type ="email" name = "emailv">
 			<input type ="search" name ="searchv">
-			<!--검색하는 인풋 정보로써의 가치를 가짐  -->
+			검색하는 인풋 정보로써의 가치를 가짐 
 			<input type ="tel" name ="telv">
-			<!--전화번호를 적는 것  -->
+			전화번호를 적는 것 
 			<input type="url" name ="urlv">
 			<input type ="range" name ="rangev" min = "0" max="10">
-			<!-- 슬라이더가 생김 -->
+			슬라이더가 생김
 			<input type = "submit">
-			<!--_____________________________________  -->
+			_____________________________________ 
 			
 			<input type ="text" name ="id" placeholder="id를 입력해주세요" autofocus>
-			<!--사용자의 커서가 자동으로 포커스 되어 id로 이동함  -->
+			사용자의 커서가 자동으로 포커스 되어 id로 이동함 
 			<input type = "password" name ="password" autocomplete = "off" placeholder="password를 입력해주세요">
-			<!--비밀번호만 자동완성이 안되게 한다.  -->
-			<!--해당칸에 입력전에 글자를 보여줌  -->
+			비밀번호만 자동완성이 안되게 한다. 
+			해당칸에 입력전에 글자를 보여줌 
 			<input type = "submit">			
 			
 		</form>
 
 	</body>
 
+</html> -->
+
+
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
+<!-- 2020 - 10 - 09 -->
+
+<!--입력 값 체크 입력된 정보의 유효성을 체크해보자  -->
+ <html>
+	<head>
+		<title>생활코딩  html 정주행</title>
+		<meta charset="UTF-8">
+				
+	</head>			
+	<body>
+		<form action ="register.php">
+			<input type = "text" name ="id" placeholder ="아이디 입력" required
+			pattern ="[a-zA-Z].+[0-9]">
+			<!--required는 반드시 적어야 제출이 가능하다.  -->
+			<!--패턴안에는 정규 표현식이 들어온다.  -->
+			<input type = "email" name ="email" placeholder="이메일 입력" >
+			<input type = "submit" >
+			
+			
+		</form>
+
+	</body>
+
 </html>
+
+
+
